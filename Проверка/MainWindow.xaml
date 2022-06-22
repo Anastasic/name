@@ -1,0 +1,22 @@
+﻿<Window x:Class="Проверка.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Проверка"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,2,0.333,-2.333">
+        <Button Content="Телефон" HorizontalAlignment="Left" Margin="59,44,0,0" VerticalAlignment="Top" Width="623" Background="#FF9644E9" Foreground="White" Click="test_click"/>
+        <TextBox x:Name="ph" HorizontalAlignment="Left" Height="29" Margin="183,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="365" Background="#FF5F5F5F" Foreground="White" FontSize="16"/>
+        <Button Content="Телефон" HorizontalAlignment="Left" Margin="59,126,0,0" VerticalAlignment="Top" Width="623" Background="#FF9644E9" Foreground="White" Click="email_click"/>
+        <TextBox x:Name="email1" HorizontalAlignment="Left" Height="29" Margin="187,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="365" Background="#FF5F5F5F" Foreground="White" FontSize="16"/>
+        <Button Content="Паспорт" HorizontalAlignment="Left" Margin="59,199,0,0" VerticalAlignment="Top" Width="623" Click="Button_Click"/>
+        <TextBox x:Name="pas" HorizontalAlignment="Left" Height="29" Margin="193,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="365" Background="#FF5F5F5F" Foreground="White" FontSize="16"/>
+        <Button Content="Паспорт" HorizontalAlignment="Left" Margin="59,273,0,0" VerticalAlignment="Top" Width="623" Click="st2"/>
+        <TextBox x:Name="dt1" HorizontalAlignment="Left" Height="29" Margin="193,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="365" Background="#FF5F5F5F" Foreground="White" FontSize="16"/>
+        <Button Content="Паспорт" HorizontalAlignment="Left" Margin="59,346,0,0" VerticalAlignment="Top" Width="623" Click="fio2"/>
+        <TextBox x:Name="fio1" HorizontalAlignment="Left" Height="29" Margin="193,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="365" Background="#FF5F5F5F" Foreground="White" FontSize="16"/>
+
+    </Grid>
+</Window>
