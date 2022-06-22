@@ -19,6 +19,7 @@
         <TextBox x:Name="dt1" HorizontalAlignment="Left" Height="29" Margin="193,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="365" Background="#FF5F5F5F" Foreground="White" FontSize="16"/>
         <Button Content="Паспорт" HorizontalAlignment="Left" Margin="59,346,0,0" VerticalAlignment="Top" Width="623" Click="fio2"/>
         <TextBox x:Name="fio1" HorizontalAlignment="Left" Height="29" Margin="193,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="365" Background="#FF5F5F5F" Foreground="White" FontSize="16"/>
+        <ComboBox HorizontalAlignment="Left" Margin="59,312,0,0" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
